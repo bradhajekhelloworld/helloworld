@@ -1,4 +1,4 @@
-FROM node:buster
+FROM node:slim
 RUN mkdir -p /usr/local/helloworld/
 COPY helloworld.js package.json /usr/local/helloworld/
 WORKDIR /usr/local/helloworld/
